@@ -1,1 +1,2 @@
-# modern-gis-live
+# Modern GIS Live Workshops
+
