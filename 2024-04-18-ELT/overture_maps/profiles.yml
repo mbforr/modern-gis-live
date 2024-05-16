@@ -1,0 +1,10 @@
+overture_maps:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: duckdb.ddb
+      extensions:
+        - httpfs
+        - spatial
+        - parquet

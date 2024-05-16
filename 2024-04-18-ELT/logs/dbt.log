@@ -1,0 +1,77 @@
+[0m14:56:30.057998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083b2110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083e3fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083e3190>]}
+
+
+============================== 14:56:30.060747 | 5ceabe9d-4628-473a-877e-83405beea076 ==============================
+[0m14:56:30.060747 [info ] [MainThread]: Running with dbt=1.7.13
+[0m14:56:30.061079 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mattforrest/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init overture_maps', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:56:30.061592 [debug] [MainThread]: Starter project path: /Users/mattforrest/Documents/modern-gis-live/2024-04-18-ELT/dbt-env/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:56:30.064485 [info ] [MainThread]: 
+Your new dbt project "overture_maps" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:56:30.064703 [info ] [MainThread]: Setting up your profile.
+[0m14:56:44.715563 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 14.684581, "process_user_time": 0.869385, "process_kernel_time": 0.146598, "process_mem_max_rss": "99598336", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:56:44.716394 [debug] [MainThread]: Command `dbt init` succeeded at 14:56:44.716289 after 14.69 seconds
+[0m14:56:44.716711 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10838a310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102878a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1027d5b10>]}
+[0m14:56:44.717025 [debug] [MainThread]: Flushing usage events
+[0m09:29:17.140279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089a4710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a01e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a02710>]}
+
+
+============================== 09:29:17.142947 | 0136df7e-1128-4181-9e39-6cb0f1911ea7 ==============================
+[0m09:29:17.142947 [info ] [MainThread]: Running with dbt=1.7.13
+[0m09:29:17.143295 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mattforrest/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init overture-bigquery', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:29:33.029915 [debug] [MainThread]: Starter project path: /Users/mattforrest/Documents/modern-gis-live/2024-04-18-ELT/dbt-env/lib/python3.11/site-packages/dbt/include/starter_project
+[0m09:29:33.041155 [info ] [MainThread]: 
+Your new dbt project "overture_bigquery" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:29:33.041961 [info ] [MainThread]: Setting up your profile.
+[0m09:31:56.365563 [info ] [MainThread]: Profile overture_bigquery written to /Users/mattforrest/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:31:56.378255 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 159.26668, "process_user_time": 2.50982, "process_kernel_time": 1.374612, "process_mem_max_rss": "180355072", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m09:31:56.380996 [debug] [MainThread]: Command `dbt init` succeeded at 09:31:56.380760 after 159.27 seconds
+[0m09:31:56.383992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089e5c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10899c410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10898dfd0>]}
+[0m09:31:56.386018 [debug] [MainThread]: Flushing usage events
+[0m09:54:03.047382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106ae2090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1113014d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111302b50>]}
+
+
+============================== 09:54:03.050250 | 42f342be-7092-4c39-948b-89708641e3f0 ==============================
+[0m09:54:03.050250 [info ] [MainThread]: Running with dbt=1.7.13
+[0m09:54:03.050582 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mattforrest/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:54:03.050933 [info ] [MainThread]: dbt version: 1.7.13
+[0m09:54:03.051118 [info ] [MainThread]: python version: 3.11.4
+[0m09:54:03.051294 [info ] [MainThread]: python path: /Users/mattforrest/Documents/modern-gis-live/2024-04-18-ELT/dbt-env/bin/python3.11
+[0m09:54:03.051452 [info ] [MainThread]: os info: macOS-13.4-arm64-arm-64bit
+[0m09:54:04.086489 [info ] [MainThread]: Using profiles dir at /Users/mattforrest/.dbt
+[0m09:54:04.086808 [info ] [MainThread]: Using profiles.yml file at /Users/mattforrest/.dbt/profiles.yml
+[0m09:54:04.086990 [info ] [MainThread]: Using dbt_project.yml file at /Users/mattforrest/Documents/modern-gis-live/2024-04-18-ELT/dbt_project.yml
+[0m09:54:04.087220 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m09:54:04.088801 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.0713689, "process_user_time": 2.652362, "process_kernel_time": 0.928473, "process_mem_max_rss": "200048640", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m09:54:04.089092 [debug] [MainThread]: Command `dbt debug` failed at 09:54:04.089029 after 1.07 seconds
+[0m09:54:04.089288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11128e310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11129c310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14057ff50>]}
+[0m09:54:04.089486 [debug] [MainThread]: Flushing usage events

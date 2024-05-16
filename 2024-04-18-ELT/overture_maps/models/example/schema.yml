@@ -1,0 +1,31 @@
+
+version: 2
+
+models:
+  - name: updated_last_14_days
+    description: "Overture buildings updated in the last 14 days"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: new_buildings_germany
+    description: "New buildings near Germany"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: height_names_tokyo
+    description: "Buildings with heights and names in Tokyo"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+

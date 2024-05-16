@@ -1,0 +1,30 @@
+
+version: 2
+
+models:
+  # - name: overture_geom_20240416
+  #   description: "Add table with geometries and H3 cells"
+  #   columns:
+  #     - name: id
+  #       description: "The primary key for this table"
+  #       tests:
+  #         - unique
+  #         - not_null
+
+  - name: overture_new_20240416
+    description: "Get the most recent updates"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: overture_tiles
+    description: "Create H3 tiles"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
